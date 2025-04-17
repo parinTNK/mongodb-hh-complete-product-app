@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { ObjectId } from "mongodb"; // Import ObjectId to handle MongoDB IDs
-import { getDb } from "../utils/db.js"; // Import the reusable database connection
+import { ObjectId } from "mongodb";
+import { getDb } from "../utils/db.js";
 
 const productRouter = Router();
 

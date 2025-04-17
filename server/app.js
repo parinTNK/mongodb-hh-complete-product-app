@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import productRouter from "./apps/products.js";
-import { connectDB } from "./utils/db.js"; // Import connectDB
+import { connectDB } from "./utils/db.js";
 import morgan from "morgan";
 
 const app = express();
